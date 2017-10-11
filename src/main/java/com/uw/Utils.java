@@ -89,6 +89,7 @@ public class Utils {
 				.overrideOutputFiles(true)
 				.addOutput(outputPath)
 				.addExtraArgs("-c:v", "copy", "-c:a", "aac")
+//				.addExtraArgs("-shortest")
 				.done();
 
 				executor = new FFmpegExecutor(ffmpeg);
