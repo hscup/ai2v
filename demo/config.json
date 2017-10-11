@@ -1,0 +1,9 @@
+{
+    "note": "If ffmpeg is in your PATH environment variable, then you can skip 'ffmpegPath' field",
+    "ffmpegPath": "",
+    "audio": "ringtone.wav",
+    "images":{
+        "a1.png": 0,
+        "a2.png": 15
+    }
+}
